@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(4, 4, 4);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-image: url(Assets/waves-body.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    padding-top: 9%;
+    justify-content: center;
+}
+
+.card-container{
+    background-color: rgba(250, 235, 215, 0.929);
+    border-radius: 25px;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 30rem; 
+    
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-container img{
+    height: 10rem;
+    border-radius: 50%;
+    padding-bottom: .78rem;
+}
+
+.header-container h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.acc-links-icons{
+    height: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.fa-brands, .fa-solid{
+    width: 2rem;
+    size: 5rem;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    gap: 3rem;
+    padding-top: 2rem;
+}
+.Follow, .Message{
+    color: black;
+    height: 2rem;
+    width: 8rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: transparent;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+
+.Follow{
+    background-color: black;
+    color: white;
+    
+}
